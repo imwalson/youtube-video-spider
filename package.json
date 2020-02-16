@@ -1,0 +1,29 @@
+{
+  "name": "youtube-video-spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "crawler": "node crawler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imwalson/youtube-video-spider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imwalson/youtube-video-spider/issues"
+  },
+  "homepage": "https://github.com/imwalson/youtube-video-spider#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "make-dir": "^3.0.2",
+    "nedb-promise": "^2.0.1",
+    "ytdl-core": "^1.0.7",
+    "ytsr": "^0.1.10"
+  }
+}
