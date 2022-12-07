@@ -20,7 +20,7 @@
   "homepage": "https://github.com/imwalson/youtube-video-spider#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "make-dir": "^3.0.2",
     "nedb-promise": "^2.0.1",
     "ytdl-core": "^1.0.7",
